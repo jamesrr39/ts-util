@@ -2,5 +2,11 @@
   "name": "ts-util",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:jamesrr39/ts-util.git"
+  "repository": "git@github.com:jamesrr39/ts-util.git",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
 }
